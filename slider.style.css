@@ -1,0 +1,48 @@
+.ifs-slider{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.ifscSlider {
+    transition-property: transform, height;    
+}
+
+.ifs-slider .slide{
+    list-style: none;
+    float: left;
+}
+
+.IFSOuter {
+    overflow: hidden;
+}
+
+.ifsTransit {
+    -webkit-transition: all 0.51s;
+    -webkit-transition-property: -webkit-transform, height;
+    -moz-transition-property: -moz-transform, height;
+    transition-property: transform, height
+}
+
+.IFSSliderWrapper{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition-timing-function: ease;
+    transition-duration: 400ms
+}
+
+ul.ifsc-pager {
+    list-style: none;
+    margin: 10px;
+    overflow:hidden;
+}
+
+.ifsc-pager li{
+    float: left;
+}
+
+.disabled{
+    pointer-events: none    
+}
