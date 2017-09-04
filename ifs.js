@@ -159,8 +159,9 @@
         // practically can be dots and arrow on corners
         var self = this;
         var pagers = '';
+        var _class = settings.auto ? 'hidden' : '';
         pagers += '<li style="margin-right:20px"><button class="btn btn-default">Prev</button></li><li><button class="btn btn-default">Next</button></li>';
-        $slideWrapper.append("<ul class='ifsc-pager'></ul>");
+        $slideWrapper.append("<ul class=ifsc-pager " + _class + "></ul>");
         $slideWrapper.find('.ifsc-pager').html(pagers);
         $pager = $slideWrapper.find('.ifsc-pager').find('li');
         $pager.on('click', function(e){

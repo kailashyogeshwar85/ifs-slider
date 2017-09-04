@@ -43,6 +43,10 @@ ul.ifsc-pager {
     float: left;
 }
 
+.hidden{
+    display: none
+}
+
 .disabled{
     pointer-events: none    
 }
