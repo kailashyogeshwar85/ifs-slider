@@ -6,4 +6,10 @@
       console.log("before init hook called ",instance);
     } 
   });
+
+  $('#takahaya').ifsSlider({ 
+    auto: true,
+    ltr: true,
+    rtl: false
+  });
 }(jQuery))
