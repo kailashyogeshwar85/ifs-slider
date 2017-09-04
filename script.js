@@ -1,7 +1,7 @@
 ;(function($){
   console.log("DOM ready");
   $('#kyoko').ifsSlider({ 
-    auto: false,
+    auto: true,
     beforeInit: function(instance){
       console.log("before init hook called ",instance);
     } 
